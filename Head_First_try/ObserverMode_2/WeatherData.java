@@ -1,4 +1,4 @@
-import javax.security.auth.Subject;
+
 import java.util.ArrayList;
 
 
@@ -13,9 +13,17 @@ public class WeatherData implements Subject {
         observers = new ArrayList<>();
     }
 
+
+    @Override
+    public void registerObserver(Observer o) {
+        observers.add(o);
+    }
+
+    @Override
     public void registerObserver(CurrentConditionsDisplay o) {
         observers.add(o);
     }
+
 
     public void removeObserver(Observer o) {
         observers.remove(o);

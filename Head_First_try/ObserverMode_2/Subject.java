@@ -2,6 +2,8 @@ public interface Subject {//Ö÷Ìâ½Ó¿Ú: ÄÜ¹»Íê³É×¢²á¹Û²ìÕßÒÔ¼°ÒÆ³ıµÈ¹¦ÄÜ,²¢ÇÒÍ¨Öª¹
 
     public void registerObserver(Observer o);
 
+    void registerObserver(CurrentConditionsDisplay o);
+
     public void removeObserver(Observer o);
 
     public void notifyObservers();
