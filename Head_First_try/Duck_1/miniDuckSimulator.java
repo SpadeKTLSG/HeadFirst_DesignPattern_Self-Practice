@@ -1,3 +1,5 @@
+package Duck_1;
+
 public class miniDuckSimulator { // 测试小鸭子 -> 使用封装好的方法族, 而不是自己构建实例
 
     // !针对接口编程而不是实现,封装该封装的部分,尽量少使用继承等基础要求

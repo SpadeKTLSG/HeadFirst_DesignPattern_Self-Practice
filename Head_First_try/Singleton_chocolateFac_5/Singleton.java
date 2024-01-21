@@ -1,3 +1,5 @@
+package Singleton_chocolateFac_5;
+
 // NOTE: This is not thread safe!
 // 经典的单件实现
 public class Singleton {

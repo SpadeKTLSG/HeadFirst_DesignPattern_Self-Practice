@@ -1,5 +1,4 @@
 package headfirst.designpatterns.combining.composite;
-
 public class MallardDuck implements Quackable {
 
     public void quack() {

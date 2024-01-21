@@ -1,5 +1,4 @@
 package headfirst.designpatterns.combining.composite;
-
 public class DuckCall implements Quackable {
 
     public void quack() {

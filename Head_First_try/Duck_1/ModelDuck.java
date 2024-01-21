@@ -1,3 +1,5 @@
+package Duck_1;
+
 public class ModelDuck extends Duck {
     public ModelDuck() {
         flybe = new FlyNoWay();

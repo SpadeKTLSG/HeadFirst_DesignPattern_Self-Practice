@@ -1,5 +1,4 @@
 package headfirst.designpatterns.combining.composite;
-
 import java.util.ArrayList;
 import java.util.Iterator;
 

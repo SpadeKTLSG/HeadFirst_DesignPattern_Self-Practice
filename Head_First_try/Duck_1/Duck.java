@@ -1,3 +1,5 @@
+package Duck_1;
+
 public abstract class Duck {
     // 给这两个行为接口都声明两个引用变量, 让所有的子类都去继承他们, 这样以后都可以使用.
     FlyBehavior flybe;

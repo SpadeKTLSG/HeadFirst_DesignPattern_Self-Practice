@@ -1,3 +1,5 @@
+package Duck_1;
+
 public interface QuackBehavior {
-    public void quack();
+    void quack();
 }

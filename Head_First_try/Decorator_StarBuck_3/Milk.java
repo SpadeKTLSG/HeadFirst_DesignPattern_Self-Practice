@@ -1,3 +1,5 @@
+package Decorator_StarBuck_3;
+
 public class Milk extends CondimentDecorator { //实现包装,需要用一个实例记录包装的对象(对象组)
     public Milk(Beverage beverage) {
         this.beverage = beverage; //记录

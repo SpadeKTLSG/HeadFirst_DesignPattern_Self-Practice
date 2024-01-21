@@ -1,3 +1,5 @@
+package Decorator_StarBuck_3;
+
 public class Mocha extends CondimentDecorator {
     public Mocha(Beverage beverage) {
         this.beverage = beverage;

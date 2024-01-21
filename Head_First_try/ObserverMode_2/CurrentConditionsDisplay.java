@@ -1,3 +1,6 @@
+package ObserverMode_2;
+
+
 public class CurrentConditionsDisplay implements Observer, DisplayElement { // 这个就是布告板了,展示
     private float temperature;
     private float humidity;

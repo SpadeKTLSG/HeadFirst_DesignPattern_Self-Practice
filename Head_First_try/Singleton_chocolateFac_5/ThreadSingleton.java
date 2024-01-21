@@ -1,3 +1,5 @@
+package Singleton_chocolateFac_5;
+
 public class ThreadSingleton {
     private volatile static ThreadSingleton uniqueInstance; //设置可见性.
 

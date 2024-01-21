@@ -1,5 +1,4 @@
 package headfirst.designpatterns.combining.composite;
-
 public class CountingDuckFactory extends AbstractDuckFactory {
 
     public Quackable createMallardDuck() {

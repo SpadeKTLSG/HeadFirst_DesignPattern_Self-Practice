@@ -1,3 +1,5 @@
+package Duck_1;
+
 public interface FlyBehavior {
-    public void fly();
+    void fly();
 }

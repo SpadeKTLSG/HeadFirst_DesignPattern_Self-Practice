@@ -1,3 +1,5 @@
+package Duck_1;
+
 public class MallardDuck extends Duck {
     public MallardDuck() {
         quackbe = new Quack();
